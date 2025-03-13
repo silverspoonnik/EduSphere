@@ -1,9 +1,6 @@
-<<<<<<< HEAD
-=======
 import Image from "next/image";
 import Link from "next/link";
 
->>>>>>> recovered-branch
 const menuItems = [
   {
     title: "MENU",
@@ -117,9 +114,6 @@ const menuItems = [
       },
     ],
   },
-<<<<<<< HEAD
-];
-=======
 ];
 
 const Menu = () => {
@@ -149,4 +143,3 @@ const Menu = () => {
 };
 
 export default Menu;
->>>>>>> recovered-branch
