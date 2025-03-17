@@ -13,7 +13,7 @@ export default function DashboardLayout({
         <div className="w-[15%] md:w-[8%] lg:w-[16%] xl :w-[15%] ">
           <Link href="/" className="flex items-center justify-center lg:justify-start gap-2 ">
           <Image src="/logo.png" alt="" width={32} height={32} ></Image>
-            <span className="hidden lg:block">EduSphere</span>
+            <span className="hidden font-bold lg:block">EduSphere</span>
           </Link>
           <Menu></Menu>
         </div>

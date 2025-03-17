@@ -3,6 +3,7 @@ import UserCards from "@/components/UserCards"
 import AttendenceChart from "@/components/AttendenceChart";
 import FinanceChart from "@/components/FinanceChart";
 import EventCalendar from "@/components/EventCalendar";
+import Announcements from "@/components/Announcements";
 const AdminPage= ()=>{
     return (
         <div className="flex flex-col md:flex-row p-4 gap-4">
@@ -34,6 +35,7 @@ const AdminPage= ()=>{
             {/* {right} */}
             <div className="w-full lg:w-1/3 flex flex-col gap-8">
             <EventCalendar></EventCalendar>
+            <Announcements></Announcements>
             </div>
         </div>
     )
